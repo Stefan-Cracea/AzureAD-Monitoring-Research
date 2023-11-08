@@ -1,0 +1,1605 @@
+[
+    {
+        "id": "Directory_76fc5e6f-c417-4460-85e3-6d0cc787d7b2_MZJOM_81111681",
+        "category": "ApplicationManagement",
+        "correlationId": "76fc5e6f-c417-4460-85e3-6d0cc787d7b2",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Consent to application",
+        "activityDateTime": "2023-03-19T09:04:40.8462649+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "ff22d6b1-98c6-4e7f-868e-d32b6b7b6f0a",
+                "displayName": null,
+                "userPrincipalName": "jonjones9809@MyThesisAzureAD.onmicrosoft.com",
+                "ipAddress": "74.234.48.136",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "ConsentContext.IsAdminConsent",
+                        "oldValue": null,
+                        "newValue": "\"False\""
+                    },
+                    {
+                        "displayName": "ConsentContext.IsAppOnly",
+                        "oldValue": null,
+                        "newValue": "\"False\""
+                    },
+                    {
+                        "displayName": "ConsentContext.OnBehalfOfAll",
+                        "oldValue": null,
+                        "newValue": "\"False\""
+                    },
+                    {
+                        "displayName": "ConsentContext.Tags",
+                        "oldValue": null,
+                        "newValue": "\"WindowsAzureActiveDirectoryIntegratedApp\""
+                    },
+                    {
+                        "displayName": "ConsentAction.Permissions",
+                        "oldValue": null,
+                        "newValue": "\"[] => [[Id: UcKh8Zp8xUOeqMhD3I756zJoq3S1ZIpFul7ZmClNu6ix1iL_xph_ToaO0ytre28K, ClientId: f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb, PrincipalId: ff22d6b1-98c6-4e7f-868e-d32b6b7b6f0a, ResourceId: 74ab6832-64b5-458a-ba5e-d998294dbba8, ConsentType: Principal, Scope: profile MailboxSettings.ReadWrite Mail.ReadWrite Mail.Send Contacts.Read Files.ReadWrite, CreatedDateTime: , LastModifiedDateTime ]]; \""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "EvoSTS"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_76fc5e6f-c417-4460-85e3-6d0cc787d7b2_MZJOM_81111674",
+        "category": "UserManagement",
+        "correlationId": "76fc5e6f-c417-4460-85e3-6d0cc787d7b2",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Add app role assignment grant to user",
+        "activityDateTime": "2023-03-19T09:04:40.845266+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "ff22d6b1-98c6-4e7f-868e-d32b6b7b6f0a",
+                "displayName": null,
+                "userPrincipalName": "jonjones9809@MyThesisAzureAD.onmicrosoft.com",
+                "ipAddress": "74.234.48.136",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "AppRole.Id",
+                        "oldValue": null,
+                        "newValue": "\"00000000-0000-0000-0000-000000000000\""
+                    },
+                    {
+                        "displayName": "AppRole.Value",
+                        "oldValue": null,
+                        "newValue": "\"\""
+                    },
+                    {
+                        "displayName": "AppRole.DisplayName",
+                        "oldValue": null,
+                        "newValue": "\"\""
+                    },
+                    {
+                        "displayName": "AppRoleAssignment.CreatedDateTime",
+                        "oldValue": null,
+                        "newValue": "\"2023-03-19T09:04:40.7932643Z\""
+                    },
+                    {
+                        "displayName": "AppRoleAssignment.LastModifiedDateTime",
+                        "oldValue": null,
+                        "newValue": "\"2023-03-19T09:04:40.7932643Z\""
+                    },
+                    {
+                        "displayName": "User.ObjectID",
+                        "oldValue": null,
+                        "newValue": "\"ff22d6b1-98c6-4e7f-868e-d32b6b7b6f0a\""
+                    },
+                    {
+                        "displayName": "User.UPN",
+                        "oldValue": null,
+                        "newValue": "\"jonjones9809@MyThesisAzureAD.onmicrosoft.com\""
+                    },
+                    {
+                        "displayName": "User.PUID",
+                        "oldValue": null,
+                        "newValue": "\"1003200275AB481C\""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            },
+            {
+                "id": "ff22d6b1-98c6-4e7f-868e-d32b6b7b6f0a",
+                "displayName": null,
+                "type": "User",
+                "userPrincipalName": "jonjones9809@MyThesisAzureAD.onmicrosoft.com",
+                "groupType": null,
+                "modifiedProperties": []
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "EvoSTS"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_76fc5e6f-c417-4460-85e3-6d0cc787d7b2_MZJOM_81111566",
+        "category": "ApplicationManagement",
+        "correlationId": "76fc5e6f-c417-4460-85e3-6d0cc787d7b2",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Add delegated permission grant",
+        "activityDateTime": "2023-03-19T09:04:40.7842624+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "ff22d6b1-98c6-4e7f-868e-d32b6b7b6f0a",
+                "displayName": null,
+                "userPrincipalName": "jonjones9809@MyThesisAzureAD.onmicrosoft.com",
+                "ipAddress": "74.234.48.136",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "74ab6832-64b5-458a-ba5e-d998294dbba8",
+                "displayName": "Microsoft Graph",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "DelegatedPermissionGrant.Scope",
+                        "oldValue": null,
+                        "newValue": "\"profile MailboxSettings.ReadWrite Mail.ReadWrite Mail.Send Contacts.Read Files.ReadWrite\""
+                    },
+                    {
+                        "displayName": "DelegatedPermissionGrant.ConsentType",
+                        "oldValue": null,
+                        "newValue": "\"Principal\""
+                    },
+                    {
+                        "displayName": "ServicePrincipal.ObjectID",
+                        "oldValue": null,
+                        "newValue": "\"f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb\""
+                    },
+                    {
+                        "displayName": "ServicePrincipal.DisplayName",
+                        "oldValue": null,
+                        "newValue": null
+                    },
+                    {
+                        "displayName": "ServicePrincipal.AppId",
+                        "oldValue": null,
+                        "newValue": null
+                    },
+                    {
+                        "displayName": "ServicePrincipal.Name",
+                        "oldValue": null,
+                        "newValue": null
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"00000003-0000-0000-c000-000000000000/ags.windows.net;00000003-0000-0000-c000-000000000000;https://canary.graph.microsoft.com;https://graph.microsoft.com;https://ags.windows.net;https://graph.microsoft.us;https://graph.microsoft.com/;https://dod-graph.microsoft.us;https://canary.graph.microsoft.com/;https://graph.microsoft.us/;https://dod-graph.microsoft.us/\""
+                    }
+                ]
+            },
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": null,
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": []
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "EvoSTS"
+            },
+            {
+                "key": "AppId",
+                "value": "00000003-0000-0000-c000-000000000000"
+            }
+        ]
+    },
+    {
+        "id": "Directory_cc2443dc-27a3-4821-b98d-2b508d0d9eee_O2J4N_115218216",
+        "category": "ApplicationManagement",
+        "correlationId": "cc2443dc-27a3-4821-b98d-2b508d0d9eee",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Consent to application",
+        "activityDateTime": "2023-03-18T17:16:01.0531197+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "6d68bbbe-5860-4705-b817-e24b324c4ab5",
+                "displayName": null,
+                "userPrincipalName": "sgoodman@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "20.67.249.109",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "ConsentContext.IsAdminConsent",
+                        "oldValue": null,
+                        "newValue": "\"False\""
+                    },
+                    {
+                        "displayName": "ConsentContext.IsAppOnly",
+                        "oldValue": null,
+                        "newValue": "\"False\""
+                    },
+                    {
+                        "displayName": "ConsentContext.OnBehalfOfAll",
+                        "oldValue": null,
+                        "newValue": "\"False\""
+                    },
+                    {
+                        "displayName": "ConsentContext.Tags",
+                        "oldValue": null,
+                        "newValue": "\"WindowsAzureActiveDirectoryIntegratedApp\""
+                    },
+                    {
+                        "displayName": "ConsentAction.Permissions",
+                        "oldValue": null,
+                        "newValue": "\"[] => [[Id: UcKh8Zp8xUOeqMhD3I756zJoq3S1ZIpFul7ZmClNu6i-u2htYFgFR7gX4ksyTEq1, ClientId: f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb, PrincipalId: 6d68bbbe-5860-4705-b817-e24b324c4ab5, ResourceId: 74ab6832-64b5-458a-ba5e-d998294dbba8, ConsentType: Principal, Scope: profile MailboxSettings.ReadWrite Mail.ReadWrite Mail.Send Contacts.Read Files.ReadWrite, CreatedDateTime: , LastModifiedDateTime ]]; \""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "EvoSTS"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_cc2443dc-27a3-4821-b98d-2b508d0d9eee_O2J4N_115218211",
+        "category": "UserManagement",
+        "correlationId": "cc2443dc-27a3-4821-b98d-2b508d0d9eee",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Add app role assignment grant to user",
+        "activityDateTime": "2023-03-18T17:16:01.0521187+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "6d68bbbe-5860-4705-b817-e24b324c4ab5",
+                "displayName": null,
+                "userPrincipalName": "sgoodman@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "20.67.249.109",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "AppRole.Id",
+                        "oldValue": null,
+                        "newValue": "\"00000000-0000-0000-0000-000000000000\""
+                    },
+                    {
+                        "displayName": "AppRole.Value",
+                        "oldValue": null,
+                        "newValue": "\"\""
+                    },
+                    {
+                        "displayName": "AppRole.DisplayName",
+                        "oldValue": null,
+                        "newValue": "\"\""
+                    },
+                    {
+                        "displayName": "AppRoleAssignment.CreatedDateTime",
+                        "oldValue": null,
+                        "newValue": "\"2023-03-18T17:16:01.0041198Z\""
+                    },
+                    {
+                        "displayName": "AppRoleAssignment.LastModifiedDateTime",
+                        "oldValue": null,
+                        "newValue": "\"2023-03-18T17:16:01.0041198Z\""
+                    },
+                    {
+                        "displayName": "User.ObjectID",
+                        "oldValue": null,
+                        "newValue": "\"6d68bbbe-5860-4705-b817-e24b324c4ab5\""
+                    },
+                    {
+                        "displayName": "User.UPN",
+                        "oldValue": null,
+                        "newValue": "\"sgoodman@mythesisazuread.onmicrosoft.com\""
+                    },
+                    {
+                        "displayName": "User.PUID",
+                        "oldValue": null,
+                        "newValue": "\"1003200259BF8FB4\""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            },
+            {
+                "id": "6d68bbbe-5860-4705-b817-e24b324c4ab5",
+                "displayName": null,
+                "type": "User",
+                "userPrincipalName": "sgoodman@mythesisazuread.onmicrosoft.com",
+                "groupType": null,
+                "modifiedProperties": []
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "EvoSTS"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_cc2443dc-27a3-4821-b98d-2b508d0d9eee_O2J4N_115218073",
+        "category": "ApplicationManagement",
+        "correlationId": "cc2443dc-27a3-4821-b98d-2b508d0d9eee",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Add delegated permission grant",
+        "activityDateTime": "2023-03-18T17:16:00.9971173+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "6d68bbbe-5860-4705-b817-e24b324c4ab5",
+                "displayName": null,
+                "userPrincipalName": "sgoodman@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "20.67.249.109",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "74ab6832-64b5-458a-ba5e-d998294dbba8",
+                "displayName": "Microsoft Graph",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "DelegatedPermissionGrant.Scope",
+                        "oldValue": null,
+                        "newValue": "\"profile MailboxSettings.ReadWrite Mail.ReadWrite Mail.Send Contacts.Read Files.ReadWrite\""
+                    },
+                    {
+                        "displayName": "DelegatedPermissionGrant.ConsentType",
+                        "oldValue": null,
+                        "newValue": "\"Principal\""
+                    },
+                    {
+                        "displayName": "ServicePrincipal.ObjectID",
+                        "oldValue": null,
+                        "newValue": "\"f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb\""
+                    },
+                    {
+                        "displayName": "ServicePrincipal.DisplayName",
+                        "oldValue": null,
+                        "newValue": null
+                    },
+                    {
+                        "displayName": "ServicePrincipal.AppId",
+                        "oldValue": null,
+                        "newValue": null
+                    },
+                    {
+                        "displayName": "ServicePrincipal.Name",
+                        "oldValue": null,
+                        "newValue": null
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"00000003-0000-0000-c000-000000000000/ags.windows.net;00000003-0000-0000-c000-000000000000;https://canary.graph.microsoft.com;https://graph.microsoft.com;https://ags.windows.net;https://graph.microsoft.us;https://graph.microsoft.com/;https://dod-graph.microsoft.us;https://canary.graph.microsoft.com/;https://graph.microsoft.us/;https://dod-graph.microsoft.us/\""
+                    }
+                ]
+            },
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": null,
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": []
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "EvoSTS"
+            },
+            {
+                "key": "AppId",
+                "value": "00000003-0000-0000-c000-000000000000"
+            }
+        ]
+    },
+    {
+        "id": "Directory_4becb9fd-33b3-4763-a209-41d52624fec7_OPTP2_34156292",
+        "category": "ApplicationManagement",
+        "correlationId": "4becb9fd-33b3-4763-a209-41d52624fec7",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Consent to application",
+        "activityDateTime": "2023-03-18T17:01:46.242046+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "20.13.153.247",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "ConsentContext.IsAdminConsent",
+                        "oldValue": null,
+                        "newValue": "\"False\""
+                    },
+                    {
+                        "displayName": "ConsentContext.IsAppOnly",
+                        "oldValue": null,
+                        "newValue": "\"False\""
+                    },
+                    {
+                        "displayName": "ConsentContext.OnBehalfOfAll",
+                        "oldValue": null,
+                        "newValue": "\"False\""
+                    },
+                    {
+                        "displayName": "ConsentContext.Tags",
+                        "oldValue": null,
+                        "newValue": "\"WindowsAzureActiveDirectoryIntegratedApp\""
+                    },
+                    {
+                        "displayName": "ConsentAction.Permissions",
+                        "oldValue": null,
+                        "newValue": "\"[] => [[Id: UcKh8Zp8xUOeqMhD3I756zJoq3S1ZIpFul7ZmClNu6gz44Eta0muS46ZpbSgWhpI, ClientId: f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb, PrincipalId: 2d81e333-496b-4bae-8e99-a5b4a05a1a48, ResourceId: 74ab6832-64b5-458a-ba5e-d998294dbba8, ConsentType: Principal, Scope: profile MailboxSettings.ReadWrite Mail.ReadWrite Mail.Send Contacts.Read Files.ReadWrite, CreatedDateTime: , LastModifiedDateTime ]]; \""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "EvoSTS"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_4becb9fd-33b3-4763-a209-41d52624fec7_OPTP2_34156287",
+        "category": "UserManagement",
+        "correlationId": "4becb9fd-33b3-4763-a209-41d52624fec7",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Add app role assignment grant to user",
+        "activityDateTime": "2023-03-18T17:01:46.2400459+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "20.13.153.247",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "AppRole.Id",
+                        "oldValue": null,
+                        "newValue": "\"00000000-0000-0000-0000-000000000000\""
+                    },
+                    {
+                        "displayName": "AppRole.Value",
+                        "oldValue": null,
+                        "newValue": "\"\""
+                    },
+                    {
+                        "displayName": "AppRole.DisplayName",
+                        "oldValue": null,
+                        "newValue": "\"\""
+                    },
+                    {
+                        "displayName": "AppRoleAssignment.CreatedDateTime",
+                        "oldValue": null,
+                        "newValue": "\"2023-03-18T17:01:46.1900465Z\""
+                    },
+                    {
+                        "displayName": "AppRoleAssignment.LastModifiedDateTime",
+                        "oldValue": null,
+                        "newValue": "\"2023-03-18T17:01:46.1900465Z\""
+                    },
+                    {
+                        "displayName": "User.ObjectID",
+                        "oldValue": null,
+                        "newValue": "\"2d81e333-496b-4bae-8e99-a5b4a05a1a48\""
+                    },
+                    {
+                        "displayName": "User.UPN",
+                        "oldValue": null,
+                        "newValue": "\"jonjones@mythesisazuread.onmicrosoft.com\""
+                    },
+                    {
+                        "displayName": "User.PUID",
+                        "oldValue": null,
+                        "newValue": "\"1003200259B81422\""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            },
+            {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "type": "User",
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "groupType": null,
+                "modifiedProperties": []
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "EvoSTS"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_4becb9fd-33b3-4763-a209-41d52624fec7_OPTP2_34156251",
+        "category": "ApplicationManagement",
+        "correlationId": "4becb9fd-33b3-4763-a209-41d52624fec7",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Add delegated permission grant",
+        "activityDateTime": "2023-03-18T17:01:46.1810459+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "20.13.153.247",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "74ab6832-64b5-458a-ba5e-d998294dbba8",
+                "displayName": "Microsoft Graph",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "DelegatedPermissionGrant.Scope",
+                        "oldValue": null,
+                        "newValue": "\"profile MailboxSettings.ReadWrite Mail.ReadWrite Mail.Send Contacts.Read Files.ReadWrite\""
+                    },
+                    {
+                        "displayName": "DelegatedPermissionGrant.ConsentType",
+                        "oldValue": null,
+                        "newValue": "\"Principal\""
+                    },
+                    {
+                        "displayName": "ServicePrincipal.ObjectID",
+                        "oldValue": null,
+                        "newValue": "\"f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb\""
+                    },
+                    {
+                        "displayName": "ServicePrincipal.DisplayName",
+                        "oldValue": null,
+                        "newValue": null
+                    },
+                    {
+                        "displayName": "ServicePrincipal.AppId",
+                        "oldValue": null,
+                        "newValue": null
+                    },
+                    {
+                        "displayName": "ServicePrincipal.Name",
+                        "oldValue": null,
+                        "newValue": null
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"00000003-0000-0000-c000-000000000000/ags.windows.net;00000003-0000-0000-c000-000000000000;https://canary.graph.microsoft.com;https://graph.microsoft.com;https://ags.windows.net;https://graph.microsoft.us;https://graph.microsoft.com/;https://dod-graph.microsoft.us;https://canary.graph.microsoft.com/;https://graph.microsoft.us/;https://dod-graph.microsoft.us/\""
+                    }
+                ]
+            },
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": null,
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": []
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "EvoSTS"
+            },
+            {
+                "key": "AppId",
+                "value": "00000003-0000-0000-c000-000000000000"
+            }
+        ]
+    },
+    {
+        "id": "Directory_bfdbe63c-b601-4e2c-8cf2-e1fb5af48a9a_4SUJ3_97964700",
+        "category": "ApplicationManagement",
+        "correlationId": "bfdbe63c-b601-4e2c-8cf2-e1fb5af48a9a",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Update application",
+        "activityDateTime": "2023-03-18T17:00:35.4334314+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "a2781c15-02ec-4a6e-a314-7290b8074e84",
+                "displayName": "0ffice",
+                "type": "Application",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "RequiredResourceAccess",
+                        "oldValue": "[{\"ResourceAppId\":\"00000003-0000-0000-c000-000000000000\",\"RequiredAppPermissions\":[{\"EntitlementId\":\"818c620a-27a9-40bd-a6a5-d96f7d610b4b\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"024d486e-b451-40bb-833d-3e66d98c5c73\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"e383f46e-2787-4529-855e-0e479a3ffac0\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"ff74d97f-43af-4b68-9f2a-b77ee6968c5d\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"5c28f0bf-8a70-41f1-8ab2-9032436ddb65\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]}],\"EncodingVersion\":1}]",
+                        "newValue": "[{\"ResourceAppId\":\"00000003-0000-0000-c000-000000000000\",\"RequiredAppPermissions\":[{\"EntitlementId\":\"14dad69e-099b-42c9-810b-d002981feec1\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"818c620a-27a9-40bd-a6a5-d96f7d610b4b\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"024d486e-b451-40bb-833d-3e66d98c5c73\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"e383f46e-2787-4529-855e-0e479a3ffac0\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"ff74d97f-43af-4b68-9f2a-b77ee6968c5d\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"5c28f0bf-8a70-41f1-8ab2-9032436ddb65\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]}],\"EncodingVersion\":1}]"
+                    },
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"RequiredResourceAccess\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_bfdbe63c-b601-4e2c-8cf2-e1fb5af48a9a_4SUJ3_97964681",
+        "category": "ApplicationManagement",
+        "correlationId": "bfdbe63c-b601-4e2c-8cf2-e1fb5af48a9a",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Update service principal",
+        "activityDateTime": "2023-03-18T17:00:35.3774269+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"\""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_83d50300-d33b-444d-891b-0760d0805e98_87KIB_104694883",
+        "category": "ApplicationManagement",
+        "correlationId": "83d50300-d33b-444d-891b-0760d0805e98",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Update application",
+        "activityDateTime": "2023-03-18T17:00:25.2016129+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "a2781c15-02ec-4a6e-a314-7290b8074e84",
+                "displayName": "0ffice",
+                "type": "Application",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "RequiredResourceAccess",
+                        "oldValue": "[{\"ResourceAppId\":\"00000003-0000-0000-c000-000000000000\",\"RequiredAppPermissions\":[{\"EntitlementId\":\"405a51b5-8d8d-430b-9842-8be4b0e9f324\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"818c620a-27a9-40bd-a6a5-d96f7d610b4b\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"024d486e-b451-40bb-833d-3e66d98c5c73\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"e383f46e-2787-4529-855e-0e479a3ffac0\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"ff74d97f-43af-4b68-9f2a-b77ee6968c5d\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"5c28f0bf-8a70-41f1-8ab2-9032436ddb65\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]}],\"EncodingVersion\":1}]",
+                        "newValue": "[{\"ResourceAppId\":\"00000003-0000-0000-c000-000000000000\",\"RequiredAppPermissions\":[{\"EntitlementId\":\"818c620a-27a9-40bd-a6a5-d96f7d610b4b\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"024d486e-b451-40bb-833d-3e66d98c5c73\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"e383f46e-2787-4529-855e-0e479a3ffac0\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"ff74d97f-43af-4b68-9f2a-b77ee6968c5d\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"5c28f0bf-8a70-41f1-8ab2-9032436ddb65\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]}],\"EncodingVersion\":1}]"
+                    },
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"RequiredResourceAccess\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_83d50300-d33b-444d-891b-0760d0805e98_87KIB_104694804",
+        "category": "ApplicationManagement",
+        "correlationId": "83d50300-d33b-444d-891b-0760d0805e98",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Update service principal",
+        "activityDateTime": "2023-03-18T17:00:25.0906063+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"\""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_cfc52261-cf77-4be2-8978-abcfca45463b_87KIB_104690828",
+        "category": "ApplicationManagement",
+        "correlationId": "cfc52261-cf77-4be2-8978-abcfca45463b",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Update application",
+        "activityDateTime": "2023-03-18T17:00:18.9123131+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "a2781c15-02ec-4a6e-a314-7290b8074e84",
+                "displayName": "0ffice",
+                "type": "Application",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "RequiredResourceAccess",
+                        "oldValue": "[{\"ResourceAppId\":\"00000003-0000-0000-c000-000000000000\",\"RequiredAppPermissions\":[{\"EntitlementId\":\"e1fe6dd8-ba31-4d61-89e7-88639da4683d\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"024d486e-b451-40bb-833d-3e66d98c5c73\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"e383f46e-2787-4529-855e-0e479a3ffac0\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"ff74d97f-43af-4b68-9f2a-b77ee6968c5d\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]}],\"EncodingVersion\":1}]",
+                        "newValue": "[{\"ResourceAppId\":\"00000003-0000-0000-c000-000000000000\",\"RequiredAppPermissions\":[{\"EntitlementId\":\"405a51b5-8d8d-430b-9842-8be4b0e9f324\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"818c620a-27a9-40bd-a6a5-d96f7d610b4b\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"024d486e-b451-40bb-833d-3e66d98c5c73\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"e383f46e-2787-4529-855e-0e479a3ffac0\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"ff74d97f-43af-4b68-9f2a-b77ee6968c5d\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"5c28f0bf-8a70-41f1-8ab2-9032436ddb65\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]}],\"EncodingVersion\":1}]"
+                    },
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"RequiredResourceAccess\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_cfc52261-cf77-4be2-8978-abcfca45463b_87KIB_104690776",
+        "category": "ApplicationManagement",
+        "correlationId": "cfc52261-cf77-4be2-8978-abcfca45463b",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Update service principal",
+        "activityDateTime": "2023-03-18T17:00:18.8553042+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"\""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_29bdab88-3028-4ca5-b0c2-7da8dde3f1d9_4SUJ3_97883519",
+        "category": "ApplicationManagement",
+        "correlationId": "29bdab88-3028-4ca5-b0c2-7da8dde3f1d9",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Update application",
+        "activityDateTime": "2023-03-18T16:59:00.912856+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "a2781c15-02ec-4a6e-a314-7290b8074e84",
+                "displayName": "0ffice",
+                "type": "Application",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "RequiredResourceAccess",
+                        "oldValue": "[{\"ResourceAppId\":\"00000003-0000-0000-c000-000000000000\",\"RequiredAppPermissions\":[{\"EntitlementId\":\"e1fe6dd8-ba31-4d61-89e7-88639da4683d\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]}],\"EncodingVersion\":1}]",
+                        "newValue": "[{\"ResourceAppId\":\"00000003-0000-0000-c000-000000000000\",\"RequiredAppPermissions\":[{\"EntitlementId\":\"e1fe6dd8-ba31-4d61-89e7-88639da4683d\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"024d486e-b451-40bb-833d-3e66d98c5c73\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"e383f46e-2787-4529-855e-0e479a3ffac0\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]},{\"EntitlementId\":\"ff74d97f-43af-4b68-9f2a-b77ee6968c5d\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]}],\"EncodingVersion\":1}]"
+                    },
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"RequiredResourceAccess\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_29bdab88-3028-4ca5-b0c2-7da8dde3f1d9_4SUJ3_97883475",
+        "category": "ApplicationManagement",
+        "correlationId": "29bdab88-3028-4ca5-b0c2-7da8dde3f1d9",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Update service principal",
+        "activityDateTime": "2023-03-18T16:59:00.8578581+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"\""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_e8954418-f74a-4903-8569-9f1c83e279e6_O8BE1_102324232",
+        "category": "ApplicationManagement",
+        "correlationId": "e8954418-f74a-4903-8569-9f1c83e279e6",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Update application",
+        "activityDateTime": "2023-03-18T16:57:42.4388804+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "a2781c15-02ec-4a6e-a314-7290b8074e84",
+                "displayName": "0ffice",
+                "type": "Application",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": []
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_e8954418-f74a-4903-8569-9f1c83e279e6_O8BE1_102324225",
+        "category": "ApplicationManagement",
+        "correlationId": "e8954418-f74a-4903-8569-9f1c83e279e6",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Update application – Certificates and secrets management ",
+        "activityDateTime": "2023-03-18T16:57:42.4378833+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "a2781c15-02ec-4a6e-a314-7290b8074e84",
+                "displayName": "0ffice",
+                "type": "Application",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "KeyDescription",
+                        "oldValue": "[]",
+                        "newValue": "[\"[KeyIdentifier=9f680991-ad58-43e5-be21-a2e9fb42fded,KeyType=Password,KeyUsage=Verify,DisplayName=Password uploaded on Sat Mar 18 2023]\"]"
+                    },
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"KeyDescription\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_e8954418-f74a-4903-8569-9f1c83e279e6_O8BE1_102324207",
+        "category": "ApplicationManagement",
+        "correlationId": "e8954418-f74a-4903-8569-9f1c83e279e6",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Update service principal",
+        "activityDateTime": "2023-03-18T16:57:42.379881+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"\""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_570a017f-1dae-4b0b-b1c3-1fdd2168e03c_4SUJ3_97833234",
+        "category": "ApplicationManagement",
+        "correlationId": "570a017f-1dae-4b0b-b1c3-1fdd2168e03c",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Add owner to service principal",
+        "activityDateTime": "2023-03-18T16:57:13.2074486+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "type": "User",
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "ServicePrincipal.ObjectID",
+                        "oldValue": null,
+                        "newValue": "\"f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb\""
+                    },
+                    {
+                        "displayName": "ServicePrincipal.DisplayName",
+                        "oldValue": null,
+                        "newValue": "\"0ffice\""
+                    },
+                    {
+                        "displayName": "ServicePrincipal.AppId",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    },
+                    {
+                        "displayName": "ServicePrincipal.Name",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            },
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "03c62da4-7654-44ed-b1ba-35f5b1d237e2",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": []
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            }
+        ]
+    },
+    {
+        "id": "Directory_570a017f-1dae-4b0b-b1c3-1fdd2168e03c_4SUJ3_97833170",
+        "category": "ApplicationManagement",
+        "correlationId": "570a017f-1dae-4b0b-b1c3-1fdd2168e03c",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Add service principal",
+        "activityDateTime": "2023-03-18T16:57:13.0954451+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "f1a1c251-7c9a-43c5-9ea8-c843dc8ef9eb",
+                "displayName": "0ffice",
+                "type": "ServicePrincipal",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "AccountEnabled",
+                        "oldValue": "[]",
+                        "newValue": "[true]"
+                    },
+                    {
+                        "displayName": "AppAddress",
+                        "oldValue": "[]",
+                        "newValue": "[{\"AddressType\":0,\"Address\":\"https://localhost/login/authorized\",\"ReplyAddressClientType\":1,\"ReplyAddressIndex\":null,\"IsReplyAddressDefault\":false}]"
+                    },
+                    {
+                        "displayName": "AppPrincipalId",
+                        "oldValue": "[]",
+                        "newValue": "[\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\"]"
+                    },
+                    {
+                        "displayName": "DisplayName",
+                        "oldValue": "[]",
+                        "newValue": "[\"0ffice\"]"
+                    },
+                    {
+                        "displayName": "ServicePrincipalName",
+                        "oldValue": "[]",
+                        "newValue": "[\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\"]"
+                    },
+                    {
+                        "displayName": "Credential",
+                        "oldValue": "[]",
+                        "newValue": "[{\"CredentialType\":2,\"KeyStoreId\":\"291154f0-a9f5-45bb-87be-9c8ee5b6d62c\",\"KeyGroupId\":\"291154f0-a9f5-45bb-87be-9c8ee5b6d62c\"}]"
+                    },
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"AccountEnabled, AppAddress, AppPrincipalId, DisplayName, ServicePrincipalName, Credential\""
+                    },
+                    {
+                        "displayName": "TargetId.ServicePrincipalNames",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    },
+    {
+        "id": "Directory_e66999e3-0b66-41a2-b90f-a7565bd169a4_O8BE1_102311669",
+        "category": "ApplicationManagement",
+        "correlationId": "e66999e3-0b66-41a2-b90f-a7565bd169a4",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Add owner to application",
+        "activityDateTime": "2023-03-18T16:57:12.9016562+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "type": "User",
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "Application.ObjectID",
+                        "oldValue": null,
+                        "newValue": "\"a2781c15-02ec-4a6e-a314-7290b8074e84\""
+                    },
+                    {
+                        "displayName": "Application.DisplayName",
+                        "oldValue": null,
+                        "newValue": "\"0ffice\""
+                    },
+                    {
+                        "displayName": "Application.AppId",
+                        "oldValue": null,
+                        "newValue": "\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\""
+                    }
+                ]
+            },
+            {
+                "id": "a2781c15-02ec-4a6e-a314-7290b8074e84",
+                "displayName": null,
+                "type": "Application",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": []
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            }
+        ]
+    },
+    {
+        "id": "Directory_e66999e3-0b66-41a2-b90f-a7565bd169a4_O8BE1_102311559",
+        "category": "ApplicationManagement",
+        "correlationId": "e66999e3-0b66-41a2-b90f-a7565bd169a4",
+        "result": "success",
+        "resultReason": "",
+        "activityDisplayName": "Add application",
+        "activityDateTime": "2023-03-18T16:57:12.8466546+00:00",
+        "loggedByService": "Core Directory",
+        "initiatedBy": {
+            "user": {
+                "id": "2d81e333-496b-4bae-8e99-a5b4a05a1a48",
+                "displayName": null,
+                "userPrincipalName": "jonjones@mythesisazuread.onmicrosoft.com",
+                "ipAddress": "40.126.32.101",
+                "homeTenantId": null,
+                "homeTenantName": null
+            }
+        },
+        "userAgent": null,
+        "targetResources": [
+            {
+                "id": "a2781c15-02ec-4a6e-a314-7290b8074e84",
+                "displayName": "0ffice",
+                "type": "Application",
+                "userPrincipalName": null,
+                "groupType": null,
+                "modifiedProperties": [
+                    {
+                        "displayName": "AppAddress",
+                        "oldValue": "[]",
+                        "newValue": "[{\"AddressType\":0,\"Address\":\"https://localhost/login/authorized\",\"ReplyAddressClientType\":1,\"ReplyAddressIndex\":null,\"IsReplyAddressDefault\":false}]"
+                    },
+                    {
+                        "displayName": "AppId",
+                        "oldValue": "[]",
+                        "newValue": "[\"03c62da4-7654-44ed-b1ba-35f5b1d237e2\"]"
+                    },
+                    {
+                        "displayName": "AvailableToOtherTenants",
+                        "oldValue": "[]",
+                        "newValue": "[false]"
+                    },
+                    {
+                        "displayName": "DisplayName",
+                        "oldValue": "[]",
+                        "newValue": "[\"0ffice\"]"
+                    },
+                    {
+                        "displayName": "RequiredResourceAccess",
+                        "oldValue": "[]",
+                        "newValue": "[{\"ResourceAppId\":\"00000003-0000-0000-c000-000000000000\",\"RequiredAppPermissions\":[{\"EntitlementId\":\"e1fe6dd8-ba31-4d61-89e7-88639da4683d\",\"DirectAccessGrant\":false,\"ImpersonationAccessGrants\":[20]}],\"EncodingVersion\":1}]"
+                    },
+                    {
+                        "displayName": "PublisherDomain",
+                        "oldValue": "[]",
+                        "newValue": "[\"MyThesisAzureAD.onmicrosoft.com\"]"
+                    },
+                    {
+                        "displayName": "Included Updated Properties",
+                        "oldValue": null,
+                        "newValue": "\"AppAddress, AppId, AvailableToOtherTenants, DisplayName, RequiredResourceAccess, PublisherDomain\""
+                    }
+                ]
+            }
+        ],
+        "additionalDetails": [
+            {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+            },
+            {
+                "key": "AppId",
+                "value": "03c62da4-7654-44ed-b1ba-35f5b1d237e2"
+            }
+        ]
+    }
+]
